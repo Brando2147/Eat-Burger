@@ -1,8 +1,5 @@
 var express = require('express');
-var orm = require("./config/orm.js");
-var mysql = require("mysql");
 var exphbs = require("express-handlebars");
-// var burger = require("./models/burger.js")
 var PORT = process.env.PORT || 8080;
 var app = express();
 var routes = require("./controllers/burger_controller.js");
